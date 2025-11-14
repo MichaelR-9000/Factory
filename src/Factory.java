@@ -33,13 +33,30 @@ public boolean isOpen = false;
         plane1.length = 3;
         plane1.model = "bigplane";
         System.out.println(plane1.model);
+
         airplane plane2 = new airplane();
+        System.out.println(plane2.name);
+        plane2.capacity = 300;
+        plane2.isDoubleDecker = true;
+        plane2.length = 3;
+        plane1.model = "bigplane";
+        System.out.println(plane2.model);
+
+        airplane plane3 = new airplane();
+        System.out.println(plane3.name);
+        plane3.printinfo();
+        plane3.model = "bigplane";
+
 
         System.out.println(plane2.capacity);
 
         //HW: make 2 more airplane objects
         //for one of the objects change all the instance variables
         // for all or both objects print all the instance variables
+
+
+        airplane plane4 = new airplane(232);
+        plane4.printinfo();
 
 
 
