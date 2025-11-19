@@ -21,18 +21,20 @@ public class airplane {
     }
 
     //constructor with parameter
-    public airplane(int pCapacity){
+    //todo: add a parameter for model, isdoubledecker
+    public airplane(int pCapacity, String pName,String pModel, boolean pIsdoubledecker, int pLength){
         capacity = pCapacity;
-        name = "Jacob6";
+        name = pName;
+        model = pModel;
+        isDoubleDecker = pIsdoubledecker;
+        length = pLength;
         model = "boeing 737";
-        isDoubleDecker = false;
-        length = 150;
 
     }
 
     public void printinfo(){
-        System.out.println(name);
-        System.out.println(model);
+        System.out.println(name); //mot readable
+        System.out.println("Model:"+model); //readable simple
         System.out.println(capacity);
         System.out.println(isDoubleDecker);
         System.out.println(length);

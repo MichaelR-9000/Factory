@@ -26,13 +26,13 @@ public boolean isOpen = false;
 
         //type varName = value
         //object of type airplane
-        airplane plane1 = new airplane();
+        airplane plane1 = new airplane(200,"jacob7", "BIGPLANE", true,300);
+        System.out.println(plane1.capacity);
         System.out.println(plane1.name);
-        plane1.capacity = 300;
-        plane1.isDoubleDecker = true;
-        plane1.length = 3;
-        plane1.model = "bigplane";
-        System.out.println(plane1.model);
+        System.out.println(plane1.isDoubleDecker);
+        System.out.println(plane1.length);
+
+
 
         airplane plane2 = new airplane();
         System.out.println(plane2.name);
@@ -49,11 +49,17 @@ public boolean isOpen = false;
 
         airplane plane4 = new airplane();
         System.out.println(plane4.name);
-        plane3.printinfo();
-        plane3.model = "bigplane";
+        plane4.printinfo();
 
 
-        System.out.println(plane2.capacity);
+
+
+        car car1 = new car();
+        car1.printinfo();
+
+        car car2 = new car(5,"Small Engine", false);
+        car2.printinfo();
+
 
         //HW: make 2 more airplane objects
         //for one of the objects change all the instance variables
@@ -71,8 +77,6 @@ public boolean isOpen = false;
         System.out.println(yearfounded);
         System.out.println(factoryName);
         System.out.println(isOpen);
-        System.out.println();
-
     }
 
 
