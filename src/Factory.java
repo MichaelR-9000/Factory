@@ -47,6 +47,11 @@ public boolean isOpen = false;
         plane3.printinfo();
         plane3.model = "bigplane";
 
+        airplane plane4 = new airplane();
+        System.out.println(plane4.name);
+        plane3.printinfo();
+        plane3.model = "bigplane";
+
 
         System.out.println(plane2.capacity);
 
@@ -55,8 +60,6 @@ public boolean isOpen = false;
         // for all or both objects print all the instance variables
 
 
-        airplane plane4 = new airplane(232);
-        plane4.printinfo();
 
 
 

@@ -39,5 +39,5 @@ public class airplane {
 
 
     }
-//todo make a method called print info() that prints the airplanes instance variables
+
 }
